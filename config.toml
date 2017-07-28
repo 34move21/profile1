@@ -111,4 +111,4 @@ publishDir = "docs"
 		buttonText = "Send"
 
 	[params.footer]
-		copyright = "Published under the DHCNC 2017 License."
+		copyright = "Published under the DHNC 2017 License."
