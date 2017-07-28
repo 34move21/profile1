@@ -1,0 +1,34 @@
+# Section title
+title = "Work"
+
+[[projects]]
+    name = "Website"
+    folder = "proj-1"
+
+[[projects]]
+    name = "Mobile Apps"
+    folder = "proj-2"
+
+[[projects]]
+    name = "CMS framework"
+    folder = "proj-3"
+
+[[projects]]
+    name = "Data Center"
+    folder = "proj-4"
+
+[[projects]]
+    name = "Business Analyst"
+    folder = "proj-5"
+
+[[projects]]
+    name = "Infrastructure"
+    folder = "proj-6"
+
+[[projects]]
+    name = "Security"
+    folder = "proj-7"
+
+[[projects]]
+    name = "Social"
+    folder = "proj-8"

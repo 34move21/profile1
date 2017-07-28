@@ -1,0 +1,113 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Hugo Artists Theme"
+theme = "artists"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Donny Iskandar"
+	description = "I’ve had IT experiences over the past 16 years. Basically, I'm capable of Business Analyst, Project Management, Quality Assurance, Software Tester, IT Infrastructure. I can develop HTML5, CSS3, JavaScript web apps and Native/Hybrid Mobile Application, especially for Android Apps over the past two years."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "34move21@gmail.com"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Porto site"
+		shortBio = "Think // Do Action // Improve"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "About me"
+		bio = "**Donny specializes in Information Technology**. I recently create some of my portofolio [Knowledge](//34move21.github.io/ampgoogle/), [other website](//34move21.github.io/e94/), [Personal review](//34move21.github.io/5th/), [Personal review](//34move21.github.io/4th/), [Personal review](//34move21.github.io/3rd/),[Personal review](//34move21.github.io/2nd/),[Personal review](//34move21.github.io/2nd/), [Personal porto](//34move21.github.io/)."
+
+		[[params.about.skills]]
+			name = "Learning"
+			value = 10
+
+		[[params.about.skills]]
+			name = "Project Management"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Business Analyst"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Communication"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Programming"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Planning"
+			value = 9
+
+		[[params.about.skills]]
+			name = "Organization"
+			value = 8
+
+		[[params.about.skills]]
+			name = " Design"
+			value = 8
+
+		[[params.about.skills]]
+			name = "Teaching"
+			value = 7
+
+
+	# Contact secion
+	[params.contact]
+		title = "Contact"
+
+		# The following social network icons are available:
+		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+		[[params.contact.social]]
+			icon = "linkedin"
+			link = "//www.linkedin.com/in/iskandardonny"
+
+		[[params.contact.social]]
+			icon = "twitter"
+			link = "//twitter.com/iskdoi"
+
+		[[params.contact.social]]
+			icon = "facebook"
+			link = "//www.facebook.com/iskdoi"
+
+	[params.form]
+		title = "Send me a message"
+		# Form fields
+		name = "Your Name"
+		email = "Your Email"
+		message = "Your messages"
+		buttonText = "Send"
+
+	[params.footer]
+		copyright = "Published under the DHCNC 2017 License."

@@ -1,0 +1,10 @@
+# Section title
+title = "Award"
+
+[[list]]
+    avatar = "client.jpg"
+    name   = "Financial Institution"
+    title  = "Reward"
+    quote  = "**Standing Ovation** To become team member of successful project delivery."
+    logo   = "reward.jpg"
+
