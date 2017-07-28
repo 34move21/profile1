@@ -44,7 +44,7 @@ publishDir = "docs"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "**Donny specializes in Information Technology**. I recently create some of my portofolio [Knowledge](//34move21.github.io/ampgoogle/), [other website](//34move21.github.io/e94/), [Personal review](//34move21.github.io/5th/), [Personal review](//34move21.github.io/4th/), [Personal review](//34move21.github.io/3rd/),[Personal review](//34move21.github.io/2nd/),[Personal review](//34move21.github.io/2nd/), [Personal porto](//34move21.github.io/)."
+		bio = "**Donny specializes in Information Technology**. I recently create some of my portofolio [Knowledge](//34move21.github.io/ampgoogle/), [other website](//34move21.github.io/e94/), [Personal review](//34move21.github.io/5th/), [Personal review](//34move21.github.io/4th/), [Personal review](//34move21.github.io/3rd/),[Personal review](//34move21.github.io/2nd/),[Personal review](//34move21.github.io/1st/), [Personal porto](//34move21.github.io/)."
 
 		[[params.about.skills]]
 			name = "Learning"
