@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://34move21.github.io/profile1"
+baseurl = "https://34move21.github.io/profile1/"
 languageCode = "en-us"
 title = "Hugo Artists Theme"
 theme = "artists"
